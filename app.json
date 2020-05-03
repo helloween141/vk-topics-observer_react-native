@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Vk Topics Obs",
     "slug": "vk-topics-observer",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -23,8 +23,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.helloween141.vk_topics_obs",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Приложение для отслеживания топиков в vk",
+    "githubUrl": "https://github.com/helloween141/vk-topics-observer"
   }
 }
