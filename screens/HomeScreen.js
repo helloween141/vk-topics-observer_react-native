@@ -31,8 +31,8 @@ export const HomeScreen = ({ navigation }) => {
       template = <MessagesList messages={messages} />
     } else {
       template = (
-        <View>
-          <Text>Список сообщений пуст. Добавьте топик для отслеживания!</Text>
+        <View style={styles.emptyBlock}>
+          <Text style={styles.message}>Сообщений нет. Добавьте топик для отслеживания!</Text>
           <Button
             onPress={() => navigation.navigate('Topics')}
             title='Добавить топик'
@@ -53,5 +53,13 @@ export const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: 'center'
   },
+  emptyBlock: {
+    padding: 20,
+    textAlign: 'center'
+  },
+  message: {
+    paddingBottom: 15
+  }
 })

@@ -63,8 +63,8 @@ export const fetchMessages = (firstFlag = false) => {
       }
 
       const uid = getUserID()
-      const data =(await firebase.database().ref(`/users/${uid}/topics`).once('value')).val() || {}
-     
+      const data = (await firebase.database().ref(`/users/${uid}/topics`).once('value')).val() || {}
+
       const promises = []
       let result = []
 

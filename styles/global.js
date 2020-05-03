@@ -38,5 +38,6 @@ export const globalStyles = StyleSheet.create({
   groupName: {
     fontSize: 16,
     color: '#285473',
+    width: '80%'
   }
 })

@@ -26,16 +26,13 @@ export const Alert = () => {
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'column',
+    position: 'relative',
+    zIndex: 9999
   },
   alertBlock: {
     width: '100%',
-    height: 55,
-    padding: 15,
-    marginTop: 24,
-    backgroundColor: 'red',
+    height: 75,
+    paddingTop: 35
   },
   alertText: {
     fontSize: 18,

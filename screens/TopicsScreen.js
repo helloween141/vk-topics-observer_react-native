@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { StyleSheet, View, TextInput } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import { TopicsList } from '../components/topics'
 import { TopicsContext } from '../components/topics/context'
 import {
